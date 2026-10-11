@@ -1,0 +1,22 @@
+{
+  "name": "queryinbox",
+  "version": "0.1.2",
+  "description": "Read Google Search Console and GA4 data through QueryInbox and investigate traffic changes in Grok Bot.",
+  "author": {
+    "name": "QueryInbox",
+    "email": "support@queryinbox.com"
+  },
+  "homepage": "https://queryinbox.com",
+  "repository": "https://github.com/queryinbox/grok-bot-plugin",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "grok-bot",
+    "search-console",
+    "google-analytics",
+    "ga4",
+    "seo"
+  ],
+  "skills": "skills/",
+  "mcpServers": "mcp.json"
+}

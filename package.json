@@ -1,0 +1,15 @@
+{
+  "name": "queryinbox-grok-bot-plugin",
+  "version": "0.1.2",
+  "private": true,
+  "type": "module",
+  "description": "Development checks for the QueryInbox Grok Bot plugin package.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "check": "node scripts/check.mjs",
+    "smoke": "node scripts/smoke.mjs"
+  }
+}

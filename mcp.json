@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "queryinbox": {
+      "url": "https://queryinbox.com/mcp",
+      "auth": {
+        "CLIENT_ID": "queryinbox-grok-bot",
+        "scopes": [
+          "queryinbox:read"
+        ]
+      }
+    }
+  }
+}

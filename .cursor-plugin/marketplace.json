@@ -1,0 +1,17 @@
+{
+  "name": "queryinbox-grok-bot",
+  "owner": {
+    "name": "QueryInbox",
+    "email": "support@queryinbox.com"
+  },
+  "metadata": {
+    "description": "QueryInbox plugin for Grok Bot.",
+    "version": "0.1.2"
+  },
+  "plugins": [
+    {
+      "name": "queryinbox",
+      "source": "."
+    }
+  ]
+}
