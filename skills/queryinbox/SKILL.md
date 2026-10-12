@@ -36,7 +36,7 @@ Respond in the user's language. Keep credentials in the host's OAuth connection.
 - Use `gsc_api` for Search Console and `ga4_data` for Analytics. Pass the native method name and request fields described by the tools. These support arbitrary dates, filters, metrics and dimensions within the read-only endpoint catalog.
 - Call `api_reference` before an unfamiliar method. Use `ga4_data` with `properties.getMetadata` or `properties.checkCompatibility` to verify Analytics fields.
 - Use `ga4_admin` for property details, data streams, key events and custom metric definitions.
-- If the host exposes `resource_report`, use it for a resource summary and its actual reporting window. Answer from the tool data; an interactive view is not required.
+- If the host exposes `resource_report`, use it for a resource summary and its actual reporting window. Answer from the tool data using plain text or Markdown tables. The plugin provides no embedded application page.
 - Follow pagination when the question requires complete coverage. State when row limits, sampling, thresholds, anonymized queries or data freshness limit the evidence.
 - Report the source, resource, metric, filters and exact dates. Keep Search Console clicks and Analytics sessions distinct. Calculate CTR from total clicks and impressions, rather than averaging row CTRs.
 - For "today", query GA4 for the property-local date and state the time zone. Today's data is partial; Search Console does not provide current-day user counts.

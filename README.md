@@ -31,7 +31,7 @@ This repository contains only the Grok Bot plugin manifest, MCP connection confi
 | `skills/queryinbox/SKILL.md` | Resource selection, free queries and traffic analysis |
 | `assets/` | QueryInbox logo |
 
-The remote tools are `list_resources`, `gsc_api`, `ga4_data`, `ga4_admin` and `api_reference`. The analysis skill uses their structured responses. Host support determines whether additional report tools display an interactive view.
+The remote tools are `list_resources`, `gsc_api`, `ga4_data`, `ga4_admin` and `api_reference`. The analysis skill uses their structured responses. Report tools also return data. The plugin provides no embedded application page; answers use plain text or Markdown tables.
 
 ## Validate
 

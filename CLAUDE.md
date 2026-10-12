@@ -22,6 +22,7 @@ LICENSE - MIT license
 - This repository publishes only the Grok Bot plugin package.
 - QueryInbox's hosted service handles Google data access and authorization.
 - OAuth configuration declares only a public client ID; credentials stay in the host.
+- Tools return data without embedded application pages.
 - Skills discover the host's read-only MCP tools before querying and direct the user to reconnect in the host when the connection is unavailable.
 - Run `npm run check` before publishing.
 - Keep this root CLAUDE.md as the sole repository instruction file.
